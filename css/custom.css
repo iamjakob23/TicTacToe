@@ -1,0 +1,317 @@
+/*------------------------------------------------------
+Start of main navigation elements
+--------------------------------------------------------*/
+
+/*THE ENTIRE ELEMENT*/
+#mainNav{
+    border-radius: 0px;
+    /*background: linear-gradient(white, white);*/
+    background-color: #000000;
+    border: 1px;
+    border-color: black;
+    box-shadow: 0px 0px 4px 0px gray;
+}
+
+/*ACTUAL LINK COLOR*/
+#mainNav a{
+    color: #ffffff;
+}
+
+/*HOVER CREATES BOX OVER LINK - COLOR*/
+#mainNav a:hover{
+    background-color: blue;
+}
+
+/*IF DROPDOWN - CREATES EFFECT ON LINK / THEN LIST DROPS DOWN*/
+#mainNav a:focus{
+    background: linear-gradient(white, white);
+}
+
+/*WHEN MOBILE - CHANGES THE TOGGLE BUTTON APPEARANCE*/
+.navbar-toggle{
+    border-radius: 70px;
+    background: linear-gradient(white, white);
+}
+
+/*SITE NAME LISTED IN NAVBAR*/
+#siteNameHead{
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+/*IF THERE ARE DIVIDERS IN DROPDOWN - CONTROLS TEXT APPEAR FOR NON LINKS*/
+#separatorName{
+    padding-left: 8px;
+    color: black;
+    font-weight: bold;
+}
+/*------------------------------------------------------
+End of main navigation elements
+--------------------------------------------------------*/
+
+/*-----------------------------------------------------
+Start for the clickable message alert displayed at 
+top of page
+-------------------------------------------------------*/
+/*IF THERE IS A CLICKABLE ALERT USED*/
+#mainAlert{
+    text-align: center;
+}
+
+/*-----------------------------------------------------
+End for the clickable message alert displayed at 
+top of page
+-------------------------------------------------------*/
+
+/*------------------------------------------------------
+Start of all form elements
+--------------------------------------------------------*/
+/*IF FORM USED IN NAVBAR*/
+#loginForm{
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+/*IF TEXT IS USED WITHIN THE NAVBAR LOGIN FORM - BELOW*/
+#signup{
+    text-align: center;
+}
+
+#signup a{
+    color: white;
+}
+
+#footPopover{
+    background-color: #000000;
+    border: 2px solid #ffffff;
+}
+
+#footPopover:hover{
+    background-color: #222222;
+}
+
+#footPopover :focus{
+    background-color: #222222;
+}
+
+#headPopover{
+    margin-top: -6px;
+    background-color: #000000;
+    border: 0px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+#headPopover:hover{
+    border: 0px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+#headPopover :focus{
+    border: 0px solid #000000;
+    color: #ffffff;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding-bottom: 10px;
+}
+
+.popover #headPopover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 0px;
+}
+
+button #headPopover{
+    padding: 0px;
+    border: 0px;
+}
+
+.popover{
+    background-color: #000000;
+    color: #ffffff;
+    border: 2px solid #269abc;
+    margin-right: 5px;
+    padding-bottom: 50px;
+}
+
+/*------------------------------------------------------
+End of all form elements
+--------------------------------------------------------*/
+
+/*-----------------------------------------------------
+Start of jumbotro elements
+-------------------------------------------------------*/
+/*CONTROLS DISPLAY OF TOP JUMBOTRON / SITE HEADER*/
+#topJumbo{
+    font-size: 20px;
+    margin: 0px;
+    padding: 14px;
+}
+
+.jumbotron{
+    background-color: white;
+}
+/*-----------------------------------------------------
+End of jumbotro elements
+-------------------------------------------------------*/
+
+/*-----------------------------------------------------
+Start of main container elements
+-------------------------------------------------------*/
+
+
+#p1, #p2{
+    /*padding-left: 10px;*/
+    font-weight: bold;
+}
+
+table{
+    table-layout: fixed;
+    height: 150px;
+    width: 120px;
+}
+
+#mainTable th{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    border-color: #ffffff;
+}
+
+table td{
+    overflow: hidden;
+    height: 50px;
+}
+
+#sq1, #sq2, #sq3, #sq4, #sq5, #sq6, #sq7, #sq8, #sq9{
+    border: 1px solid #000000;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#recordedWinsText{
+    color: #ff0000;
+}
+
+/*IF SMALL TEXT IS USED ON HEADER*/
+#headerTitleSmall{
+    color: black;
+}
+
+/*IF LARGE TEXT IS USED ON HEADER*/
+#headerTitle{
+    margin: 0px 10px;
+    background-color: white;
+    color: black;
+}
+
+/*DISPLAY FOR THE MAIN SECTION OF THE BODY*/
+.container-fluid#mainBody{
+    max-width: 600px;
+    border-radius: 14px;
+    background-color: #000000;
+    margin: auto;
+    /*margin: 20px;*/
+    margin-top: -8px;
+    padding: 10px;
+    box-shadow: 1px 3px 3px 5px gray;
+}
+
+/*DISPLAYED IN THE CONTAINER. DIFF COLOR BOTTOM -- PANEL*/
+#panelBottom{
+    background-color: white;
+}
+
+/*DISPLAYED IN THE CONTAINER. DIFF COLOR TOP -- PANEL*/
+#panelTitle{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.mainContainer{
+    font-size: 36px;
+}
+
+/*ASSUMES 2 COLUMN LAYOUT - RIGHT SCREEN COLUMN*/
+#rightcolumn{
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+/*ASSUMES 2 COLUMN LAYOUT - TITLE FOR RIGHT SCREEN COLUMN*/
+#rightTitle{
+    padding: 0px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*ASSUMES 2 COLUMN LAYOUT - LEFT SCREEN COLUMN*/
+#leftColumn{
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+/*ASSUMES 2 COLUMN LAYOUT - TITLE FOR RIGHT SCREEN COLUMN*/
+#leftTitle{
+    padding-top: -20px;
+    padding-bottom: 10px;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*-----------------------------------------------------
+End of main container elements
+-------------------------------------------------------*/
+/*ADJUSTS ALIGNMENT WHEN USING PULL - LEFT*/
+.pull-left{
+    margin: 8px 4px 4px 4px;
+}
+
+/*SETS THE COLOR AND PADDING FOR BACKGROUD PAGE*/
+body{
+    padding: 0px 35px;
+    background-image: url('http://jakobmyers.com/Apps/TicTacToe/img/4.jpg');
+    /*background-position: center;*/
+    /*background-repeat: repeat;*/
+/*    padding-top: 8px;
+    padding-bottom: 25px;*/
+}
+
+/*------------------------------------------------------
+Start of all footer elements
+--------------------------------------------------------*/
+/*CONTROLS TEXT IN FOOTER*/
+#footerClass{
+    text-align: right;
+    background-color: #000000;
+    font-size: 10px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/*ADJUSTS OVERALL PADDING FOR FOOTER*/
+.footer{
+    padding: 15px;
+}
+/*------------------------------------------------------
+End of all footer elements
+--------------------------------------------------------*/
